@@ -312,6 +312,17 @@ footer p, .back-top { color: var(--muted); font-size: 10px; }
     }
 }
 
+.gmail-link {
+    display: block;
+    margin-top: 16px;
+    color: #aabaff;
+    font-size: 14px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
 
-
+.gmail-link:hover {
+    color: white;
+    text-decoration: underline;
+}
 
