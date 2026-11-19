@@ -310,6 +310,24 @@ footer p, .back-top { color: var(--muted); font-size: 10px; }
         flex-direction: column;
         gap: 8px;
     }
+      /* Mobile contact section */
+  .contact-section {
+      padding: 75px 20px;
+  }
+
+  .contact-section .gmail-link {
+      display: block;
+      width: fit-content;
+      margin: 18px auto 0;
+      font-size: 14px;
+      text-align: center;
+  }
+
+  .contact-section .button-light {
+      display: block;
+      width: fit-content;
+      margin: 0 auto;
+  }
 }
 
 .gmail-link {
@@ -325,4 +343,13 @@ footer p, .back-top { color: var(--muted); font-size: 10px; }
     color: white;
     text-decoration: underline;
 }
-
+/* Keep contact links stacked on mobile */
+@media (max-width: 700px) {
+    .contact-section .gmail-link {
+        display: block;
+        width: fit-content;
+        margin: 18px auto 0;
+        font-size: 14px;
+        text-align: center;
+    }
+}
